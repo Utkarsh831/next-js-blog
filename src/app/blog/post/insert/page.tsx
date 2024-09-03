@@ -1,6 +1,7 @@
 "use client";
 import React, {useEffect, useMemo, useState} from 'react';
 import {useRouter} from 'next/navigation'
+// @ts-ignore
 import {v4 as uuidv4} from 'uuid';
 import {User} from "@/app/lib/definition";
 import {getSession} from "next-auth/react";
